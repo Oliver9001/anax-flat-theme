@@ -722,6 +722,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .site-logo-text {
   font-size: 2em;
+  width: 300px;
 }
 .site-logo-text a {
   text-decoration: none;
@@ -729,7 +730,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-desktop li {
   background-color: #eee;
-  border-radius: 10px;
+  border-style: dotted;
 }
 .rm-max .rm-small .rm-button {
   font-size: 2em;
@@ -740,10 +741,19 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .logo-1 {
   position: absolute;
   top: 70px;
-  left: -140px;
+  left: -210px;
 }
 .site-logo-text-icon img {
   vertical-align: bottom;
+}
+/** --------------------------------------------------------------
+ *  Footer
+ */
+.footer-column-wrapper {
+  overflow: auto;
+  background-color: #eee;
+  border-style: solid;
+  padding: 10px;
 }
 /** --------------------------------------------------------------
  *  responsive design
